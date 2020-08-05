@@ -1,0 +1,186 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('imagenes/paredlapiz.jpg');
+	background-size: cover; 
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	color: #1B262C;
+	font-size:27px;
+	font-family: 'Amatic SC', cursive;	
+}
+
+h1{
+
+	font-family: 'Dancing Script', cursive;
+	color:#596E79;
+	font-size: 35px;
+	width: 400px;
+}
+
+h2{
+	font-family: 'Architects Daughter', cursive;
+	color:#411F1F;
+	font-size:27px;
+	word-wrap: break-word;
+}
+
+h3{
+
+	font-family: 'Patrick Hand', cursive;
+	color:#00BCD4;
+	font-size:28px;
+	text-align: center;
+
+}
+
+a{
+	color: #222831;
+	font-size: 30;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #87556F;
+}
+
+#maxi{
+	border-radius: 8px;
+	box-shadow: 8px 8px 8px black;
+}
+
+#encabezado {
+	background: #291a22;
+    color: coral;
+    text-align: left;
+    margin: 10;
+    padding: 30;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+} 
+
+#musicos{
+	background: gray;
+	width: 100%;
+	height: 100%;
+    color: aqua;
+    margin: 0px;
+	padding: 8px;
+	border:gray 5px double;
+}
+
+#series{
+	background: burlywood;
+	border:burlywood;
+	width: 100%;
+	height: 100%;
+    color: darkviolet;
+    margin: 0px;
+    padding: 8px;
+}
+    
+#peliculas{
+	background: chocolate; 
+	border:chocolate;
+	width: 100%;
+	height: 100%;
+    color: aliceblue;
+    margin: 0px;
+	padding: 8px;
+} 
+
+#personalizados{
+	background: #C1A57B;
+	border:#C1A57B;
+	width: 100%;
+	height: 100%;
+	color: #035AA6;
+	margin: 0px;
+    padding: 8px;
+} 
+
+.dibujos{
+	width: auto; 
+	height: auto;
+	max-width: 80%;
+	max-height: 80%;
+	justify-content: center;
+	margin: auto;
+	display: block;
+	margin-bottom: 10px;
+	margin-top: initial;
+}
+
+#cortrometraje{
+	background: black;
+    color: aliceblue;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.boton{
+	border: 2px solid #B7EFCD;  
+	font-family: 'Patrick Hand', cursive;
+	color: #87556F;
+	font-size:23px;
+}
+
+#footer{
+	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('imagenes/lapizmargenblanco.jpg');
+	background-size: cover; 
+	width: 100%;
+	height: auto;
+	background-position: bottom;
+	margin: 1px;
+    padding: 15px;	
+}
+
+#recomendacion{
+	font-family: 'Permanent Marker', cursive;
+	color:#ECCE6D;
+	padding: 10;
+}
+
+.card-product{
+	height: 80px;
+	background: #21243D;
+	display: flex;
+	align-items: center;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.3);
+	margin: 10;
+	width: 250px;
+	clear: both;
+}
+
+.card-product img {
+	height: 90%;
+	object-fit: cover;
+	margin:6;
+	border-radius: 3px;
+}
+
+.card-product p{
+	margin: 0;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 22px;
+	padding-left: 20px;
+	width: 200px;
+	color: coral;
+}
+
+.thumbnail {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    display: inline-block; /* makes it fit in like an <img> */
+    background-size: contain; /* or contain */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.card {
+	padding: 3px 10px;  
+	border-top-left-radius: 20px; 
+	border-bottom-right-radius: 20px;
+}
